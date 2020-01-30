@@ -22,4 +22,3 @@ def get_url():
 
     return df
 
-get_url()
