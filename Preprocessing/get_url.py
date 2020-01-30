@@ -21,6 +21,8 @@ def get_url():
     df.shape
 
     urls = df['sourceurl'].unique()
+
+    df.to_csv('sourceurl.csv', header=True, index=None)
     
     return urls
 get_url()
