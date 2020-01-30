@@ -20,5 +20,9 @@ def get_url():
 
     df.shape
 
-    return df
+    urls = df['sourceurl'].unique()
+    
+    return urls
+get_url()
+    
 
